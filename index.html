@@ -1,15 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/mediaqueries.css">
+    <style>
+
+.show-box{
+    margin-top: 2rem;
     
+}
+        .grid-container {
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            padding: 0;
+            justify-content: flex-end;
+        }
+
+        .grid-item {
+            margin: auto;
+        }
+
+        .grid-item img {
+            width: 400px;
+            height: 400px;
+            border-radius: 5px;
+        }
+
+        .learn-more-box {
+            display: flex;
+            align-items: center;
+
+        }
+
+        .learn-more-box a {
+            font-family: sans-serif;
+            text-decoration: none;
+            color: white;
+            background-color: #D4C214;
+            border-radius: 10px;
+            padding: 0.5rem 1rem;
+            margin: auto;
+            margin-top: 3rem;
+        }
+    </style>
 </head>
+
 <body>
-    hello
-    <script src="assets/js/script.js"></script>
+    <nav>
+        <div class="container">
+            <div class="nav-con">
+                <div class="logo">
+                    <a href="#">M</a>
+                </div>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="welcome-text">
+        <H1>
+            Welcome to My <a href="#">Portfolio</a>
+        </H1>
+    </div>
+    <div class="show-box">
+        <div class="grid-container">
+            <div class="grid-item"><img
+                    src="https://www.dunstableroadrunners.org/wp-content/uploads/2019/04/image-coming-soon.jpg" alt="">
+            </div>
+            <div class="grid-item"><img
+                    src="https://www.dunstableroadrunners.org/wp-content/uploads/2019/04/image-coming-soon.jpg" alt="">
+            </div>
+            <div class="grid-item"><img
+                    src="https://www.dunstableroadrunners.org/wp-content/uploads/2019/04/image-coming-soon.jpg" alt="">
+            </div>
+            <div class="grid-item"><img
+                    src="https://www.dunstableroadrunners.org/wp-content/uploads/2019/04/image-coming-soon.jpg" alt="">
+            </div>
+            <div class="grid-item"><img
+                    src="https://www.dunstableroadrunners.org/wp-content/uploads/2019/04/image-coming-soon.jpg" alt="">
+            </div>
+            <div class="grid-item"><img
+                    src="https://www.dunstableroadrunners.org/wp-content/uploads/2019/04/image-coming-soon.jpg" alt="">
+            </div>
+        </div>
+        <div class="learn-more-box">
+            <a href="#" class="grid-item-btn">Learn More</a>
+        </div>
 </body>
+
 </html>
