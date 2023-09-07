@@ -1,0 +1,49 @@
+.contact-box {
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.name-box {
+    width: 30%;
+    border-radius: 10px;
+    padding: 12px;
+    box-sizing: border-box;
+
+}
+
+.email-box {
+    width: 30%;
+    border-radius: 10px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.colored-text {
+    color: #D4C214;
+}
+
+.send-box a {
+    background-color: #D4C214;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+}
+
+.send-box {
+    display: flex;
+    align-items: center;
+
+}
+.message {
+    font-family: sans-serif;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+}
