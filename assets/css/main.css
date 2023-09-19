@@ -43,6 +43,21 @@ nav {
     font-size: 20px;
 }
 
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    color: aqua;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #F9F9F9;
+    color: aqua;
+}
 
 body {
     background-color: black;
@@ -136,4 +151,19 @@ body p {
 .hover-underline-animation:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+@media(max-widhth:768px){
+    .hamburger-menu{
+        display: block;
+    }
+    .hamburger-menu .active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger-menu .active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger-menu .active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
 }
